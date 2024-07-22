@@ -24,7 +24,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 2rem;
-	padding: 10rem 0;
+	padding: 10rem 1rem;
 }
 
 a {
@@ -41,7 +41,7 @@ main {
 	background-color: var(--grey-800);
 	min-width: 400px;
 	margin: 0 auto;
-	padding: 2.75rem;
+	padding: 2.9rem;
 	border-radius: 1rem;
 }
 
@@ -90,13 +90,13 @@ nav ul {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 1rem;
+	gap: 1.1rem;
 	width: 100%;
 }
 
 .btn {
 	background-color: var(--grey-700);
-	padding: 1rem 0;
+	padding: 1.15rem 0;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -114,4 +114,16 @@ nav ul {
 
 nav li {
 	width: 100%;
+}
+
+@media (max-width: 400px) {
+	body {
+		padding: 6rem 1.75rem;
+	}
+
+	main {
+		min-width: 0;
+		width: 100%;
+		padding: 1.75rem;
+	}
 }
